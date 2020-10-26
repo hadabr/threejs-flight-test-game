@@ -85,7 +85,7 @@ function resetGame(){
 
 //THREEJS RELATED VARIABLES
 
-var scene,
+let scene,
     camera, fieldOfView, aspectRatio, nearPlane, farPlane,
     renderer,
     container,
@@ -93,7 +93,7 @@ var scene,
 
 //SCREEN & MOUSE VARIABLES
 
-var HEIGHT, WIDTH,
+let HEIGHT, WIDTH,
     mousePos = { x: 0, y: 0 };
 
 //INIT THREE JS, SCREEN AND MOUSE EVENTS
@@ -180,7 +180,7 @@ function handleTouchEnd(event){
 
 // LIGHTS
 
-var ambientLight, hemisphereLight, shadowLight;
+let ambientLight, hemisphereLight, shadowLight;
 
 function createLights() {
 
@@ -210,7 +210,7 @@ function createLights() {
 }
 
 
-var Pilot = function(){
+let Pilot = function(){
   this.mesh = new THREE.Object3D();
   this.mesh.name = "pilot";
   this.angleHairs=0;
