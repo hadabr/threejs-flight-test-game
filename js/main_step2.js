@@ -1,5 +1,5 @@
 //COLORS
-var Colors = {
+let Colors = {
     red:0xf25346,
     white:0xd8d0d1,
     pink:0xF5986E,
@@ -10,13 +10,13 @@ var Colors = {
 
 // THREEJS RELATED VARIABLES
 
-var scene,
+let scene,
     camera, fieldOfView, aspectRatio, nearPlane, farPlane,
     renderer, container;
 
 //SCREEN VARIABLES
 
-var HEIGHT, WIDTH;
+let HEIGHT, WIDTH;
 
 //INIT THREE JS, SCREEN AND MOUSE EVENTS
 
@@ -63,7 +63,7 @@ function handleWindowResize() {
 
 // LIGHTS
 
-var ambientLight, hemisphereLight, shadowLight;
+let ambientLight, hemisphereLight, shadowLight;
 
 function createLights() {
 
