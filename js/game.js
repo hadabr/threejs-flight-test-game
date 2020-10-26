@@ -1,5 +1,5 @@
 //COLORS
-var Colors = {
+const Colors = {
     red:0xf25346,
     white:0xd8d0d1,
     brown:0x59332e,
@@ -11,13 +11,13 @@ var Colors = {
 };
 
 // GAME VARIABLES
-var game;
-var deltaTime = 0;
-var newTime = new Date().getTime();
-var oldTime = new Date().getTime();
-var ennemiesPool = [];
-var particlesPool = [];
-var particlesInUse = [];
+let game;
+let deltaTime = 0;
+let newTime = new Date().getTime();
+let oldTime = new Date().getTime();
+let ennemiesPool = [];
+let particlesPool = [];
+let particlesInUse = [];
 
 function resetGame(){
   game = {speed:0,
