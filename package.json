@@ -1,0 +1,23 @@
+{
+  "name": "threejs-flight-test-game",
+  "version": "1.0.0",
+  "description": "Demo/testing for Three.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hadabr/threejs-flight-test-game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hadabr/threejs-flight-test-game/issues"
+  },
+  "homepage": "https://github.com/hadabr/threejs-flight-test-game#readme",
+  "dependencies": {
+    "gsap": "^3.5.1",
+    "three": "^0.121.1"
+  }
+}

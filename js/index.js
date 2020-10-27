@@ -137,7 +137,6 @@ function createScene() {
   controls = new THREE.OrbitControls(camera, renderer.domElement);
   controls.minPolarAngle = -Math.PI / 2;
   controls.maxPolarAngle = Math.PI ;
-
   //controls.noZoom = true;
   //controls.noPan = true;
   //*/
